@@ -1,0 +1,72 @@
+body{
+    margin: 0%;
+    padding: 0%;    
+}
+.sections{
+    height: 100vh;
+    /*justify-content: center;*/
+    /*align-items centre*/
+}
+#top-portion{
+    background-color: aqua;
+    color: brown;
+    height: 100vh;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.top-bar{
+    position: fixed;
+    background-color: blue;
+    color: rgb(116, 18, 18);
+    display: flex;
+    flex-direction: row;
+    height: 10%;
+    width: 100%;
+    z-index: 1;
+    
+}
+.centre-part{
+    background-color: rgb(223, 219, 22);
+    color: rgb(42, 3, 182);
+    background-image: url(images/background.jfif);
+    background-size: cover;
+    background-position: center;
+    height: 80%;
+    width: 209.8vh;
+    z-index: 0;
+}
+.firsth-division-logo{
+    
+    background-color: blue;
+    color: rgb(116, 18, 18);
+    height: 100%;
+    width: 10%; 
+}
+.secondh-division-empty{
+    background-color: rgb(145, 255, 0);
+    color: rgb(74, 104, 238);
+    height: 100%;
+    width: 80%;
+}
+.thirdh-division-options{
+    background-color: rgb(145, 255, 0);
+    color: rgb(187, 104, 9);
+    height: 100%;
+    width: 10%;
+    display: flex;
+    flex-flow: row nowrap;
+}
+.division-options-top{
+    background-color: rgb(130, 192, 49);
+    color: rgb(209, 142, 65);
+    height: 100%;
+    width: 50%;
+}
+
+
+
+
+
+

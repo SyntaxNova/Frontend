@@ -1,0 +1,54 @@
+.head{
+    height: 90px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+}
+.hr1{
+    width: 15%;
+}
+.hr2{
+    width: 60%;
+}
+.hr3{
+    width: 12.5%;
+}
+.hr4{
+    width: 12.5%;
+}
+#logo{
+    height: 100%;
+    width: 100%;
+}
+#signup{
+    align-self: center;
+
+}
+#login{
+    align-self: center;
+}
+@media(min-width: 1000px){
+    body{
+        width: 333.33px;
+    }
+    .hr1{
+        width: 8%;
+    }
+    .hr3 ,.hr4{
+        width: 7%;
+    }
+    .hr2{
+        width: 78%;
+    }
+}
+
+
+.centres{
+    height: 100px;
+    border: dotted 2px aqua;
+    background-image: url("images/mount fuji.jfif");
+    display: flex;
+    flex-direction: row;
+    
+}
